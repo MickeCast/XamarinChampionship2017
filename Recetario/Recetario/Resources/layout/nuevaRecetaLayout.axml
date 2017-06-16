@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+                >
+  <EditText
+    android:id="@+id/txtTituloReceta"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:hint="Titulo de la receta"
+    android:inputType="text"/>
+
+  <EditText
+  android:id="@+id/txtContenidoReceta"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:layout_below="@+id/txtTituloReceta"
+  android:hint="Contenido de la receta"
+  android:inputType="text"/>
+
+  <Button
+        android:id="@+id/bttRegistrarReceta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+  android:layout_below="@+id/txtContenidoReceta"
+        
+        android:gravity="center_vertical|center_horizontal"
+        android:text="Registrar Receta" />
+
+</RelativeLayout>
